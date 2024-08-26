@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!----Materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!---Materialize css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-----custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+
+    <!----Header-->
+    <header class="header">
+        <!--navbar-->
+        <nav class="transparent">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo indigo-text">HeadOut</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text" role="button"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html" class="black-text">Home</a></li>
+                <li><a href="badges.html" class="black-text">About</a></li>
+                <li><a href="collapsible.html" class="black-text">Places</a></li>
+                <li><a href="mobile.html" class="black-text">Experiance</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Home</a></li>
+            <li><a href="badges.html">About</a></li>
+            <li><a href="collapsible.html">Places</a></li>
+            <li><a href="mobile.html">Experiance</a></li>
+          </ul>
+
+        <!----/navbar-->
+    </header>
+    <!----/Header-->
+
+
+    <!----Hero section-->
+    <section class="hero">
+      <div class="section-hero">
+        <div class="row valign-wrapper">
+          <!----First Coloum-->
+          <div class="col s12 l3">
+            <h1>Explore Horizon</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum qui, iure id totam omnis labore quisquam perferendis vero repellat doloribus ipsum incidunt, ab consectetur voluptates ipsam soluta tenetur explicabo optio.</p>
+            <a href="#" class="waves-effect btn-large indigo">Learn more!</a>
+          </div>
+          <!----/First Coloum-->
+          <!------2nd coloumn-->
+          <div class="col s12 l9 header-images">
+            <img src="/images/header-1.jpg" alt="image" class="hoverable hide-on-small-only">
+            <img src="/images/header-2.jpg" alt="image" class="hoverable hide-on-small-only">
+            <img src="/images/header-3.jpg" alt="image" class="hoverable hide-on-small-only">
+            <img src="/images/header-4.jpg" alt="image" class="hoverable hide-on-small-only">
+          </div>
+          <!-----/2nd Coloumn-->
+
+        </div>
+      </div>
+    </section>
+    <!-----/Hero section-->
+
+
+
+
+    <!-----Nice wave js-->
+    <script src="https://unpkg.com/nice-waves@latest"></script>
+    <!---materialize js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!----custom js-->
+    <script src="app.js"></script>
+</body>
+
+</html>
