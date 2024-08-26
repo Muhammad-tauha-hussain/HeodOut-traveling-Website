@@ -5,8 +5,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    border: 1px solid black;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 0 10px;
+}
 .hero{
     margin-top: 20px;
+    padding: 0 10px;
+}
+.learn-more-btn{
+    margin-top: 30px;
 }
 .valign-wrapper{
     display: flex;
@@ -16,7 +30,7 @@
 .header-images {
     display: flex;
     gap: 1rem;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     
 }
